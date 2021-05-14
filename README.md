@@ -14,6 +14,9 @@ When running the program, the command line arguments for "interpolater.cpp" go i
  - angle (either e or q for euler / quaternion, respectively)
  - # for keyframe intervals
  - output motion file
+
+For example: 131-dance.asf 131_04-dance.amc b q 20 testing.amc
+
 This outputs the interpolated motion that you can view using "mocapPlayer.cpp"
 
 ## Player
